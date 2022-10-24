@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=0.5">
+  <meta name="description" content="A website that generates the Lollapalooza lineup with your most listened artists!">
+  <title>My Lolla</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+  <!-- <link href="style.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body onload=palnorte()>
+
+  <div id="loading">
+    <h1>My Pal' Norte</h1>
+    <span id="text_loading">...generating...</span>
+  </div>
+
+  <div id="aviso">
+    Sorry, you don't have enough listened artists :( <br>
+    Listen to more artists and try again later :)
+  </div>
+
+  <div class="escondida" id="referencia">
+    <div class="content">
+
+      <div id="size">18</div>
+      <div class="featured-artists" id="podio">
+        <span id="i0">Mac Miller</span>
+        <span id="i1">Drake</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="salvar">
+    <div class='content' id="tapete">
+      <div class="featured-artists" id="podio">
+        <span id="top0"></span>
+        <span id="top1"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="button">
+    <button id="download">Descargar</button>
+  </div>
+
+  <div class="copyrights">
+    <h3>Developed by Rodrigo de León</h3>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+<script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+
+</html>
