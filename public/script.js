@@ -7,7 +7,7 @@ function palnorte(){
       document.getElementById("referencia").style.display = "none";
       document.getElementById("loading").style.display = "none";
 
-  }else{
+  } else {
       size = 19
       let line1 = 0;
       let line2 = 0;
@@ -19,7 +19,7 @@ function palnorte(){
 
           lineSize = line1 + line2;
           console.log(lineSize);
-          lineSize += 45;
+          lineSize += 75;
           console.log(lineSize);
           document.getElementById("top"+i).innerHTML += document.getElementById("i"+i).innerHTML;
     
