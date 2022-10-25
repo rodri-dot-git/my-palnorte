@@ -128,7 +128,7 @@ app.get('/callback', function(req, res) {
             artistas[i] = body.items[i].name;
           }
 
-          res.render(__dirname + '/resultado2.html', {artistas: artistas, tamanho: tamanho});
+          res.render(__dirname + '/public/download.html', {artistas: artistas, tamanho: tamanho});
           
           });
 
