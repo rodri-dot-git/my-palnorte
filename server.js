@@ -167,7 +167,7 @@ app.get('/refresh_token', function(req, res) {
 });
 
 function enviar(res, artistas){
-  res.render(__dirname + '/resultado2.html', {artistas: artistas});
+  res.render(__dirname + '/public/download.html', {artistas: artistas});
 }
 app.listen(process.env.PORT || 8888, function () {
   console.log('listening');
