@@ -236,7 +236,8 @@ li:hover {
   justify-content: center;
   row-gap: 8px;
   column-gap: 8px;
-  min-width: 100%
+  min-width: 100%;
+  margin-top: 120px;
 }
 
 .card .content .featured-artists span {
